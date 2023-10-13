@@ -1,0 +1,167 @@
+@charset "UTF -8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    width: 100vw;
+}
+
+body > header {
+    background-color: blue;
+    height: 420px;
+    margin-bottom: 20px;
+    
+}
+
+body > header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+body > header > div > img {
+    width: 300px;
+}
+
+main {
+    padding: 10px;
+}
+
+main > h2 {
+    margin: 10px;
+    padding:10px;
+}
+
+main > p {
+    line-height: 1.6em;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+body > main > img {
+    margin: 30px;
+    height: 300px;
+}
+
+.img {
+
+    background-color: white;
+    background-image: url(../imagens/jonhy-body.png);
+    background-position: center right;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 97vw;
+    border: none;
+    
+}
+
+.img2 {
+    background-color: white;
+    background-image: url(../imagens/Guimaraes-modas.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 97vw;
+    border: none;
+
+}
+
+main > div {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+main > div,h3,p,input {
+    text-align: center;
+    padding: 5px;
+}
+
+main > div > input {
+    margin: auto;
+    width: 180px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+section {
+    background-color: rgba(0, 0, 255, 0.849);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.666);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    
+}
+
+section > h2 {
+    margin: 10px;
+}
+
+section > h3,p {
+    padding: 10px;
+    text-align: center;
+}
+
+aside {
+    background-color: rgba(255, 0, 0, 0.455);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.457);
+}
+
+aside > ul > li {
+    text-align: justify;
+    margin: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(255, 0, 0, 0.48);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+body > img {
+    margin-left: 200px;
+   
+    height: 200px;
+}
+
+footer {
+    margin-top: 0px;
+    background-color: blue;
+    color: white;
+}
+
+footer > p {
+    padding: 10px;
+    text-align: center;
+}
+    
+
+

@@ -1,3 +1,4 @@
 # jonhy-alberto
  Meu site oficial
- I'm work on it!
+O objetivo é mostrar um pouco sobre mim, minhas habilidades, formações, tecnologias e meus projetos realizados.
+

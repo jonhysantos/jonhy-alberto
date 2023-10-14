@@ -12,16 +12,22 @@ html,body {
 }
 
 body > header {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.571);
+    background-image: url(../imagens/imagem-code.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 420px;
     margin-bottom: 20px;
     
 }
 
 body > header > h1 {
+    text-shadow: 5px 5px 5px black;
     padding: 10px;
+    font-variant: small-caps;
     text-align: center;
-    color: white;
+    color: rgb(146, 146, 255);
 }
 
 body > header > div > img {
@@ -154,6 +160,7 @@ body > img {
 
 footer {
     margin-top: 0px;
+    margin-bottom: 20px;
     background-color: blue;
     color: white;
 }

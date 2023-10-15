@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Estilo para impressora*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+header > div {
+    display: none;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+main > img,.img {
+    display: none;
+}
+
+main > section > h2 {
+    text-align: center;
+}
+
+main > aside > h2 {
+    text-align: center;
+}
+
+body > img {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+footer::after {
+    content: 'Este artigo foi impresso através do site https://jonhysantos.github.io/jonhy-alberto/ ';
+}

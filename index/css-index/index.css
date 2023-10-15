@@ -77,7 +77,7 @@ body > main > img {
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 300px;
-    width: 340px;
+    width: 100vw;
     border: none;
     
 }
@@ -90,7 +90,7 @@ body > main > img {
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 300px;
-    width: 360px;
+    width: 100vw;
     border: none;
 
 }
@@ -211,7 +211,7 @@ footer > p {
         text-align: center;
     }
 
-    .img,.img2 {
+    .img2 {
         width: 90vw;
     }
 
@@ -221,7 +221,7 @@ footer > p {
     
 }
 
-@media  screen and (min-width: 768px) and (max-width: 1024px) {
+@media  screen and (min-width: 993px) and (max-width: 1024px) {
     body {
         overflow-x: hidden;
     }
@@ -237,9 +237,11 @@ footer > p {
         width: 80vw;
     }
 
-    .img {
-        width: 50vw;
+    .img,.img2 {
+        width: 100vw;
     }
+
+
 
     
 
@@ -303,6 +305,7 @@ footer > p {
     }
 
     .img2 {
+        width: 90vw;
         
     }
 

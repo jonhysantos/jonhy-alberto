@@ -112,7 +112,7 @@ main > div > input {
     margin: auto;
     width: 180px;
     border-radius: 10px;
-    background-color: dodgerblue;
+    background-color: #1e90ff;
     color: white;
 }
 
@@ -172,6 +172,10 @@ body > img {
     margin-left: 100px;
    
     height: 200px;
+}
+
+main > section > a > img {
+    width: 350px;
 }
 
 footer {

@@ -14,7 +14,7 @@
 }
 
 header{
-    background-color: var(--corprincipa);
+    background-color: blue;
     padding: 10px;
 }
 
@@ -100,11 +100,11 @@ aside > p > a {
 }
 
 aside:hover {
-    background-color: #0f3e6d;
+    background-color: blue;
 }
 
 footer {
-    background-color: black;
+    background-color: blue;
     color: white;
     text-align: center;
     margin-top: 10px;

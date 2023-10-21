@@ -33,18 +33,107 @@ body > header {
     
 }
 
+header #itens {
+    position: absolute;
+    display: none;
+}
+
+header > #menu-icone {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    
+}
+
+header > #itens > nav > ul > li {
+    padding: 20px;
+}
+
+header > #itens > nav > ul > li > a:hover  {
+    padding: 10px;
+    background-color: red;
+
+}
+
+header menu nav   {
+    text-align: center;
+    padding: 5px;
+    width: 80vw;
+    height: 600px;
+    background-color: rgb(113, 113, 251);
+    color: white;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+header > menu > nav > p {
+    font-variant: small-caps;
+}
+
+header > menu > nav > .foto-sociais > a > img {
+    padding: 5px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+header menu nav .foto-menu {
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header > menu > nav > ul > li  {
+    padding: 5px;
+}
+
 body > header > h1 {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
     padding: 10px;
     font-variant: small-caps;
+    text-align: right;
+    color:white;
     text-align: center;
-    color: rgb(146, 146, 255);
-    margin-left: 10px;
 }
 
 body > header > div > img {
-    width: 300px;
+    width: 264px;
 }
+
+.telas {
+    display: none;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+
+}
+
+.telas ul   {
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.telas ul li {
+    line-height: 2.3em;
+    display: inline-block;
+
+}
+
+.telas ul li a {
+    text-shadow: 5px 5px 5px black;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.telas ul li a:hover {
+    background-color: red;
+    border-radius: 15px;
+}
+
 
 main {
     margin: auto;
@@ -161,7 +250,7 @@ a {
     color: white;
 }
 
-a:hover {
+main aside ul li a:hover {
     background-color: rgba(255, 0, 0, 0.48);
     color: white;
     padding: 5px;
@@ -201,6 +290,18 @@ footer > p {
         width: 90vw;
     }
 
+    header > #menu-icone,#itens {
+        display: none;
+        position: absolute;
+    }
+
+    .telas {
+        display: block;
+    }
+    body > header > div > img {
+        width: 300px;
+    }
+
     main {
         margin: auto;
         width: 80vw;
@@ -229,6 +330,20 @@ footer > p {
     body {
         overflow-x: hidden;
     }
+
+    header > #menu-icone,#itens {
+        display: none;
+        position: absolute;
+    }
+
+    .telas {
+        display: block;
+    }
+
+    body > header > div > img {
+        width: 300px;
+    }
+
     main {
         border: 1px solid blue;
         margin: auto;
@@ -259,6 +374,20 @@ footer > p {
     body {
         overflow-x: hidden;
     }
+
+    header > #menu-icone,#itens {
+        display: none;
+        position: absolute;
+    }
+
+    .telas {
+        display: block;
+    }
+
+    body > header > div > img {
+        width: 300px;
+    }
+
     main {
         border: 1px solid blue;
         margin: auto;
@@ -290,6 +419,20 @@ footer > p {
         overflow-x: hidden;
         background-color: rgba(134, 134, 250, 0.121);
     }
+
+    header > #menu-icone,#itens {
+        display: none;
+        position: absolute;
+    }
+
+    .telas {
+        display: block;
+    }
+
+    body > header > div > img {
+        width: 300px;
+    }
+
     main {
         border: 1px solid rgb(56, 56, 253);
         margin: auto;

@@ -13,12 +13,24 @@ html {
     line-height: 1.3em;
 }
 
+header {
+    display: none;
+}
+
+
+
+.img,.img2 {
+    display: none;
+}
+
 header > div {
     display: none;
 }
 
 header > h1 {
+    display: block;
     text-align: center;
+    font-size: 4em;
 }
 
 main > h2 {
@@ -26,6 +38,10 @@ main > h2 {
 }
 
 main > img,.img {
+    display: none;
+}
+
+main > section {
     display: none;
 }
 

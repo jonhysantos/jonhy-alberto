@@ -16,6 +16,7 @@ html,body {
 
 body {
     overflow-x: hidden;
+    position: relative;
 }
 
 body > header {
@@ -33,18 +34,28 @@ body > header {
     
 }
 
-header #itens {
+header > #container {
     position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+header #itens {
     display: none;
 }
 
-header > #menu-icone {
+header > #container > #menu-icone {
+    position: fixed;
     margin-left: 20px;
     padding: 10px;
     border-radius: 50%;
     background-color: rgb(0, 0, 255);
     color: white;
     
+}
+
+header > #itens {
+    position: fixed;
 }
 
 header > #itens > nav > ul > li {
@@ -98,7 +109,7 @@ body > header > h1 {
 }
 
 body > header > div > img {
-    width: 264px;
+    width: 300px;
 }
 
 .telas {
@@ -291,7 +302,7 @@ footer > p {
         width: 90vw;
     }
 
-    header > #menu-icone,#itens {
+    header > #container > #menu-icone,#itens {
         display: none;
         position: absolute;
     }
@@ -332,7 +343,7 @@ footer > p {
         overflow-x: hidden;
     }
 
-    header > #menu-icone,#itens {
+    header > #container > #menu-icone,#itens {
         display: none;
         position: absolute;
     }
@@ -376,7 +387,7 @@ footer > p {
         overflow-x: hidden;
     }
 
-    header > #menu-icone,#itens {
+    header > #container #menu-icone,#itens {
         display: none;
         position: absolute;
     }
@@ -421,7 +432,7 @@ footer > p {
         background-color: rgba(134, 134, 250, 0.121);
     }
 
-    header > #menu-icone,#itens {
+    header > #container > #menu-icone,#itens {
         display: none;
         position: absolute;
     }

@@ -34,7 +34,7 @@ div {
 }
 
 table {
-    width: 500px;
+    width: 515px;
     margin: auto;
     border-collapse: collapse;
     box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.986);
@@ -48,14 +48,18 @@ caption {
     padding: 10px;
 }
 
-th,td {
+th {
+    padding: 10px;
+}
+
+td {
     font-size: 1.1em;
     border: 1px solid black;
     padding: 7px;
 }
 
 td > img {
-    width: 15px;
+    width: 22px;
 }
 
 .libertadores {
@@ -110,6 +114,7 @@ aside > p > a {
 aside:hover {
     background-color: blue;
 }
+
 
 footer {
     background-color: blue;

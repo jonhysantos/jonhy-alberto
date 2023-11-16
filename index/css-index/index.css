@@ -109,9 +109,12 @@ header > menu > nav > ul > li  {
     padding: 5px;
 }
 
+header {
+    color: white;
+}
+
 body > header > h1 {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
-    padding: 10px;
     font-variant: small-caps;
     text-align: right;
     color:white;

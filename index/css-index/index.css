@@ -55,7 +55,8 @@ header > #container > #menu-icone {
 }
 
 header > #itens {
-    position: fixed;
+    position: absolute;
+
 }
 
 header > #itens nav p {
@@ -126,7 +127,7 @@ body > header > div > img {
 
 .telas {
     display: none;
-    background-color: #0000ff;
+    background-color: #0000ffb0;
     text-align: center;
     padding: 10px;
     height: 70px;
@@ -198,8 +199,6 @@ body > main > img {
 
 .img2 {
     background-image: url(../imagens/guimaraes-modas.jpg);
-    filter:drop-shadow(0 0 2em #ff1493);
-
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -208,7 +207,6 @@ body > main > img {
     height: 300px;
     width: 100vw;
     border: none;
-
 }
 
 main > div {

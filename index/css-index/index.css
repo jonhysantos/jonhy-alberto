@@ -55,8 +55,11 @@ header > #container > #menu-icone {
 }
 
 header > #itens {
+    display: block;
     position: fixed;
-
+    left: -500px;
+    transition: 1s linear;
+    z-index: 4;
 }
 
 header > #itens nav p {

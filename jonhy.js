@@ -1,7 +1,7 @@
 function clickMenu(){
-    if (itens.style.display == 'block'){
-        itens.style.display = 'none'
+    if (itens.style.left == '-500px'){
+        itens.style.left = '-10px'
     }else {
-        itens.style.display = 'block'
+        itens.style.left = '-500px'
     }
 }

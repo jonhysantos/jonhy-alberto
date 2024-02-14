@@ -55,7 +55,7 @@ header > #container > #menu-icone {
 }
 
 header > #itens {
-    position: absolute;
+    position: fixed;
 
 }
 
@@ -178,9 +178,11 @@ main > p {
 }
 
 body > main > img {
+    position: relative;
     margin: 30px;
     height: 300px;
     filter: drop-shadow(0 0 2em #0000ff);
+    z-index: -1;
 }
 
 .img {
@@ -198,6 +200,7 @@ body > main > img {
 }
 
 .img2 {
+    position: relative;
     background-image: url(../imagens/guimaraes-modas.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -207,6 +210,9 @@ body > main > img {
     height: 300px;
     width: 100vw;
     border: none;
+    filter: drop-shadow(0 0 2em #ff1493);
+    z-index: -1;
+    
 }
 
 main > div {
@@ -283,9 +289,11 @@ main aside ul li a:hover {
 }
 
 body > img {
+    position: relative;
     margin-left: 100px;
     filter: drop-shadow(0 0 2em #0000ff);
     height: 200px;
+    z-index: -1;
 }
 
 main > section > a > img {

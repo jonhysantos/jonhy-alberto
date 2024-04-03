@@ -315,11 +315,16 @@ footer > p {
 
 
 
-@media  screen and (min-width:768px) and (max-width: 992px) {
+@media  screen and (min-width:603px) and (max-width: 992px) {
 
     html {
         width: 100vw;
         height: 100vh;
+    }
+
+    header  #itens{
+        
+        display: none;
     }
     
     body > header {
@@ -366,6 +371,10 @@ footer > p {
     body {
         overflow-x: hidden;
     }
+    header  #itens{
+        
+        display: none;
+    }
 
     header > #container > #menu-icone,#itens {
         display: none;
@@ -409,6 +418,10 @@ footer > p {
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     body {
         overflow-x: hidden;
+    }
+    header  #itens{
+        
+        display: none;
     }
 
     header > #container #menu-icone,#itens {
@@ -454,6 +467,11 @@ footer > p {
     body {
         overflow-x: hidden;
         background-color: rgba(134, 134, 250, 0.121);
+    }
+
+    header  #itens{
+        
+        display: none;
     }
 
     header > #container > #menu-icone,#itens {

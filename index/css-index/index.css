@@ -60,6 +60,7 @@ header > #itens {
     left: -500px;
     transition: 1s linear;
     z-index: 4;
+    height: 700px;
 }
 
 header > #itens nav p {
@@ -128,9 +129,6 @@ body > header > div > img {
     width: 300px;
 }
 
-.margin {
-    
-}
 
 .telas {
     display: none;
@@ -269,13 +267,10 @@ section > h3,p {
 }
 
 aside {
-    background-color: rgba(255, 0, 0, 0.455);
     border-radius: 10px;
     text-align: center;
-    color: white;
     padding: 10px;
     margin: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.457);
 }
 
 aside > ul > li {
@@ -333,13 +328,11 @@ footer > p {
 }
 
 .show {
-    position: relative;
     opacity: 1;
     filter: blur(0);
     transition: all 2s;
     transform: translateX(0);
     filter: drop-shadow(0 0 2em #0000ff);
-    z-index: -1;
     margin-bottom: 30px;
 }
 

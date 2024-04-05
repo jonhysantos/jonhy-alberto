@@ -12,6 +12,8 @@ const elements = document.querySelectorAll('.hidden')
 
 elements.forEach((element) => myObserver.observe(element))
 
+const menu = document.querySelector('#menu-icone').addEventListener('click',clickMenu)
+
 
 function clickMenu(){
     if (itens.style.left == '-500px'){

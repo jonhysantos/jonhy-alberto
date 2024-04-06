@@ -58,7 +58,7 @@ header > #itens {
     display: block;
     position: fixed;
     left: -500px;
-    transition: 1s linear;
+    transition: .7s linear;
     z-index: 4;
     height: 700px;
 }
@@ -336,6 +336,14 @@ footer > p {
     margin-bottom: 30px;
 }
 
+.logo-jonhyflix {
+   height: 40px;
+}
+
+body section img.net {
+    height: 140px;
+}
+
 
 
 
@@ -434,6 +442,8 @@ footer > p {
     }
     
 }
+
+
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     body {

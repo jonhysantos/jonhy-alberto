@@ -22,3 +22,24 @@ function clickMenu(){
         itens.style.left = '-500px'
     }
 }
+
+const pizzaria = document.querySelector('.pizzaria')
+pizzaria.addEventListener('click',clicou)
+
+function clicou(){
+    itens.style.left = '-500px'
+    
+}
+
+const tecnologia = document.querySelector('.tecnologia')
+tecnologia.addEventListener('click',clicou)
+
+const tecnologias = document.querySelector('.tecnologias')
+tecnologias.addEventListener('click',clicou)
+
+const msg = document.querySelector('.net')
+
+msg.addEventListener('click',erro)
+function erro(){
+    alert('Projeto em desenvolvimento.')
+}

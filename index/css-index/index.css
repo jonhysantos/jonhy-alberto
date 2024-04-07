@@ -127,7 +127,9 @@ body > header > h1 {
 
 body > header > div > img {
     width: 300px;
+    
 }
+
 
 
 .telas {
@@ -229,6 +231,7 @@ main > div {
     height: 100px;
 }
 
+
 main > div,h3,p,input {
     text-align: center;
     padding: 5px;
@@ -316,8 +319,32 @@ footer > p {
 
 }
 
-#foto-rodape {
-    height: 300px;
+#caixa-logo {
+    background-color: #fff;
+    filter: none;
+    border: none;
+    color: black;
+    
+}
+
+#caixa-logo :mth-child(2){
+    transition-delay: 400ms;
+}
+#caixa-logo :mth-child(3){
+    transition-delay: 700ms;
+}
+#caixa-logo :mth-child(4){
+    transition-delay: 1000ms;
+}
+
+
+#video{
+    height: 70px;
+}
+
+#logo{
+
+    height: 70px;
 }
 
 .hidden {
@@ -332,7 +359,6 @@ footer > p {
     filter: blur(0);
     transition: all 2s;
     transform: translateX(0);
-    filter: drop-shadow(0 0 2em #0000ff);
     margin-bottom: 30px;
 }
 

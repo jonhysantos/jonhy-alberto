@@ -137,7 +137,7 @@ body > header > div > img {
     background-color: #0000ffb0;
     text-align: center;
     padding: 10px;
-    height: 70px;
+    height: 20px;
 
 }
 
@@ -147,13 +147,12 @@ body > header > div > img {
 }
 
 .telas ul li {
-    line-height: 2.3em;
     display: inline-block;
 
 }
 
 .telas ul li a {
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
     font-weight: bolder;
     padding: 10px;
     color: white;
@@ -164,7 +163,6 @@ body > header > div > img {
 
 .telas ul li a:hover {
     background-color: red;
-    border-radius: 15px;
 }
 
 
@@ -381,13 +379,21 @@ body section img.net {
         height: 100vh;
     }
 
+    body header {
+        height: 467px;
+    }
+
+    body header h1 {
+        font-size: 3em;
+        background-color: #0000ff7e;
+    }
+
     header  #itens{
-        
         display: none;
     }
     
     body > header {
-        width: 90vw;
+        width: 100vw;
     }
 
     header > #container > #menu-icone,#itens {
@@ -404,7 +410,7 @@ body section img.net {
 
     main {
         margin: auto;
-        width: 80vw;
+        width: 70vw;
         
     }
 
@@ -416,8 +422,8 @@ body section img.net {
         text-align: center;
     }
 
-    .img2 {
-        width: 90vw;
+    .img2,.img1 {
+        width: 100vw;
     }
 }
 
@@ -425,8 +431,17 @@ body section img.net {
     body {
         overflow-x: hidden;
     }
+
+    body header {
+        height: 467px;
+    }
+
+    body header h1 {
+        font-size: 3em;
+        background-color: #0000ff7e;
+    }
     header  #itens{
-        
+
         display: none;
     }
 
@@ -452,8 +467,10 @@ body section img.net {
     }
 
     header {
-        width: 80vw;
+        width: 100vw;
     }
+
+
 
     .img,.img2 {
         width: 100vw;
@@ -475,6 +492,16 @@ body section img.net {
     body {
         overflow-x: hidden;
     }
+
+    body header {
+        height: 467px;
+    }
+
+    body header h1 {
+        font-size: 3em;
+        background-color: #0000ff7e;
+    }
+
     header  #itens{
         
         display: none;
@@ -494,19 +521,31 @@ body section img.net {
     }
 
     main {
-        border: 1px solid blue;
         margin: auto;
         margin-top: 10px;
         padding: 10px;
-        width: 600px;
+        width: 800px;
+        
     }
 
     header {
         width: 100vw;
     }
 
+    body main h2 {
+        font-size: 2em;
+    }
+
+    body main p {
+        font-size: 1.5em;
+    }
+
+    body main  img#braço {
+        height: 600px;
+    }
+
     .img {
-        width: 500px;
+        width: 100vw;
         background-size: auto;
         background-position: center center;
     }
@@ -520,9 +559,23 @@ body section img.net {
 }
 
 @media screen and (min-width: 1441px) {
+
+    html,body {
+        width: 100vw;
+    }
     body {
         overflow-x: hidden;
         background-color: rgba(134, 134, 250, 0.121);
+    }
+
+    body header {
+        width: 100vw;
+        height: 468px;
+    }
+
+    body header h1 {
+        font-size: 3em;
+        background-color: #0000ff7e;
     }
 
     header  #itens{
@@ -544,7 +597,6 @@ body section img.net {
     }
 
     main {
-        border: 1px solid rgb(56, 56, 253);
         margin: auto;
         margin-top: 10px;
         padding: 10px;
@@ -553,6 +605,14 @@ body section img.net {
 
     main > header {
         width: 500px;
+    }
+
+    body main p {
+        font-size: 2em;
+    }
+
+    body main #braço {
+        height: 700px;
     }
 
     .img {
@@ -564,6 +624,10 @@ body section img.net {
     .img2 {
         width: 90vw;
         
+    }
+
+    body main section  {
+        font-size: 1.6em;
     }
 
     body > img {

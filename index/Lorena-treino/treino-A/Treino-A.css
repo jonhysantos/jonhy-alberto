@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.939);
+    background-color: rgba(0, 0, 0, 0.844);
     text-align: center;
     overflow-x: hidden;
     color: white;
@@ -28,18 +28,18 @@ header{
 body header h1, p{
     font-weight: bolder;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.858);
-    background-color: #ff60b5;
+    background-color: rgba(0, 0, 0, 0.486);
     border-radius: 10px;
     
 }
 
 menu {
     width: 100vw;
-    background-color: #ff60b5;
+    background-color: rgba(0, 0, 0, 0.448);
     color: white;
     padding: 5px;
     margin-top: 20px;
-    box-shadow: 2px 2px 2px #ff60b5;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
 }
 
 menu > nav {
@@ -49,7 +49,7 @@ menu > nav {
 }
 
 menu > nav.select {
-    background-color: dodgerblue;
+    background-color: #ff7fc3;
     padding: 5px;
     padding-right: 20px;
 }

@@ -25,6 +25,12 @@ header{
     
 }
 
+header img.lorena {
+    width: 187px;
+    margin-left: 212px;
+
+}
+
 body header h1, p{
     font-weight: bolder;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.858);

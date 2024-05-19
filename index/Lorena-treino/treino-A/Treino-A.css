@@ -12,6 +12,7 @@ body{
     text-align: center;
     overflow-x: hidden;
     color: white;
+    overflow-x: hidden;
 }
 
 header{
@@ -25,9 +26,27 @@ header{
     
 }
 
-header img.lorena {
+header img.lorenaA {
     width: 187px;
-    margin-left: 212px;
+    margin-left: -170px;
+
+}
+
+header img.lorenaB {
+    width: 187px;
+    margin-left: -20px;
+
+}
+
+header img.lorenaC {
+    width: 187px;
+    margin-left: 150px;
+
+}
+
+header img.lorenaD {
+    width: 187px;
+    margin-left: 230px;
 
 }
 
